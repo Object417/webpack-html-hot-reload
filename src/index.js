@@ -10,4 +10,5 @@ $card.innerHTML = `
 `
 document.querySelector("body > .container").append($card)
 
-console.log(true)
+// You can play with this row to quickly call HMR
+// console.log(true)

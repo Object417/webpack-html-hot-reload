@@ -6,7 +6,6 @@ const commonCfg = {
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "build/"),
-    publicPath: "/",
     assetModuleFilename: "assets/[contenthash][ext][query]",
     clean: true
   },
@@ -40,9 +39,7 @@ const commonCfg = {
       {
         test: /\.(png|jpe?g|webp)$/i,
         type: "asset/resource",
-        generator: {
-          filename: "assets/img/[contenthash][ext][query]"
-        }
+        generator: { filename: "assets/img/[contenthash][ext][query]" }
       }
     ]
   }
