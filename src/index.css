@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, "Open Sans", sans-serif;
+  background: url("../assets/imgs/bg.jpg");
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+p {
+  margin: 0.5rem 0;
+}
+
+.container {
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.card:not(:first-child) {
+  margin-left: 0.5rem;
+}
